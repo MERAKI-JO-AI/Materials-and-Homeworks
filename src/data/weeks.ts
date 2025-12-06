@@ -40,13 +40,13 @@ export const weeks: Week[] = [
     lectures: [
       {
         id: "w2-l1",
-        title: "HTML & CSS – Part 1",
+        title: "HTML, CSS Part 1",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
       {
         id: "w2-l2",
-        title: "Product Details & Requirements",
+        title: "Project 1 Requirements",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -58,13 +58,7 @@ export const weeks: Week[] = [
     lectures: [
       {
         id: "w3-l1",
-        title: "Deployment (Part 1)",
-        material: { label: "Coming soon", url: null },
-        homework: { label: "Coming soon", url: null },
-      },
-      {
-        id: "w3-l2",
-        title: "HTML, CSS & JavaScript Practice",
+        title: "Deployment",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -76,13 +70,13 @@ export const weeks: Week[] = [
     lectures: [
       {
         id: "w4-l1",
-        title: "JavaScript Basics",
+        title: "JS, HTML, CSS Part 2",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
       {
         id: "w4-l2",
-        title: "JS, HTML, CSS (Part 2)",
+        title: "JS, HTML, CSS Practice",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -100,7 +94,13 @@ export const weeks: Week[] = [
       },
       {
         id: "w5-l2",
-        title: "Debugging & Customization Practice",
+        title: "Debugging & Customization",
+        material: { label: "Coming soon", url: null },
+        homework: { label: "Coming soon", url: null },
+      },
+      {
+        id: "w5-l3",
+        title: "Project 2 Requirements",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -112,13 +112,7 @@ export const weeks: Week[] = [
     lectures: [
       {
         id: "w6-l1",
-        title: "Project Features & Integration",
-        material: { label: "Coming soon", url: null },
-        homework: { label: "Coming soon", url: null },
-      },
-      {
-        id: "w6-l2",
-        title: "Advanced JavaScript Concepts",
+        title: "Project 3 Requirements",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -130,13 +124,13 @@ export const weeks: Week[] = [
     lectures: [
       {
         id: "w7-l1",
-        title: "Deployment (Part 2)",
+        title: "Projects Features & Integrations",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
       {
         id: "w7-l2",
-        title: "Project Refinement",
+        title: "Project 4 Requirements",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -148,13 +142,7 @@ export const weeks: Week[] = [
     lectures: [
       {
         id: "w8-l1",
-        title: "Portfolio Explanation & Planning",
-        material: { label: "Coming soon", url: null },
-        homework: { label: "Coming soon", url: null },
-      },
-      {
-        id: "w8-l2",
-        title: "Portfolio Technical Help",
+        title: "Portfolio Explanation",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -166,17 +154,10 @@ export const weeks: Week[] = [
     lectures: [
       {
         id: "w9-l1",
-        title: "Portfolio Presentation & Review",
-        material: { label: "Coming soon", url: null },
-        homework: { label: "Coming soon", url: null },
-      },
-      {
-        id: "w9-l2",
-        title: "Final Project Showcase",
+        title: "Portfolio Presentation",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
     ],
   },
 ];
-

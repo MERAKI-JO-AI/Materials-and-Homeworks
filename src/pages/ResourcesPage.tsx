@@ -37,16 +37,16 @@ export const ResourcesPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-navyDark">
+    <div className="min-h-screen bg-navyDark text-white overflow-x-hidden">
       <Navbar onLogout={handleLogout} />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-12">
         {/* Main title and subtitle */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
+        <div className="text-center mb-8 sm:mb-10 lg:mb-12">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">
             Vibe Coding Learning Resources
           </h1>
-          <p className="text-base md:text-lg text-gray-300">
+          <p className="text-sm sm:text-base lg:text-lg text-gray-300">
             Your coding journey at a glance
           </p>
         </div>
@@ -66,7 +66,7 @@ export const ResourcesPage = () => {
             onClose={handleCloseModal}
           />
         )}
-      </div>
+      </main>
     </div>
   );
 };

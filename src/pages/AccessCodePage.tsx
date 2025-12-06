@@ -33,12 +33,12 @@ export const AccessCodePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-navyDark flex items-center justify-center p-4">
-      <div className="bg-card rounded-xl shadow-2xl p-8 w-full max-w-md">
-        <h1 className="text-3xl font-bold text-[#111827] mb-2 text-center">
+    <div className="min-h-screen bg-navyDark flex items-center justify-center px-4 sm:px-6 py-8 sm:py-12 overflow-x-hidden">
+      <div className="bg-card rounded-xl shadow-2xl p-6 sm:p-8 w-full max-w-md">
+        <h1 className="text-2xl sm:text-3xl font-bold text-[#111827] mb-2 text-center">
           Enter Access Code
         </h1>
-        <p className="text-[#4B5563] text-center mb-6">
+        <p className="text-sm sm:text-base text-[#4B5563] text-center mb-6">
           Ask your instructor for the passcode to open the resources.
         </p>
 
@@ -55,20 +55,20 @@ export const AccessCodePage = () => {
               type="text"
               value={code}
               onChange={(e) => setCode(e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent text-[#111827]"
+              className="w-full px-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent text-sm sm:text-base text-[#111827]"
               placeholder="Enter access code"
             />
           </div>
 
           {error && (
-            <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg text-sm">
+            <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg text-xs sm:text-sm">
               {error}
             </div>
           )}
 
           <button
             type="submit"
-            className="w-full bg-accent text-white py-3 rounded-lg font-semibold hover:bg-accent/90 transition-all duration-200 shadow-lg"
+            className="w-full bg-accent text-white py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-semibold hover:bg-accent/90 transition-all duration-200 shadow-lg"
           >
             Unlock
           </button>
