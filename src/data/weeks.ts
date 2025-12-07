@@ -49,7 +49,7 @@ export const weeks: Week[] = [
       },
       {
         id: "w2-l2",
-        title: "Project 1 Requirements",
+        title: "Project 1",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -62,6 +62,12 @@ export const weeks: Week[] = [
       {
         id: "w3-l1",
         title: "Deployment",
+        material: { label: "Coming soon", url: null },
+        homework: { label: "Coming soon", url: null },
+      },
+      {
+        id: "w3-l2",
+        title: "Project 1 Presentation",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -97,13 +103,13 @@ export const weeks: Week[] = [
       },
       {
         id: "w5-l2",
-        title: "Debugging & Customization",
+        title: "Debugging & Customization Practice",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
       {
         id: "w5-l3",
-        title: "Project 2 Requirements",
+        title: "Project 2",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -115,7 +121,13 @@ export const weeks: Week[] = [
     lectures: [
       {
         id: "w6-l1",
-        title: "Project 3 Requirements",
+        title: "Project 2 Presentation",
+        material: { label: "Coming soon", url: null },
+        homework: { label: "Coming soon", url: null },
+      },
+      {
+        id: "w6-l2",
+        title: "Project 3",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -133,7 +145,7 @@ export const weeks: Week[] = [
       },
       {
         id: "w7-l2",
-        title: "Project 4 Requirements",
+        title: "Project 4",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
@@ -143,12 +155,18 @@ export const weeks: Week[] = [
     id: 8,
     label: "Week 8",
     lectures: [
-      {
-        id: "w8-l1",
-        title: "Portfolio Explanation",
-        material: { label: "Coming soon", url: null },
-        homework: { label: "Coming soon", url: null },
-      },
+        {
+          id: "w8-l1",
+          title: "Portfolio Explanation",
+          material: { label: "Coming soon", url: null },
+          homework: { label: "Coming soon", url: null },
+        },
+        {
+          id: "w8-l2",
+          title: "Project 4 Presentation",
+          material: { label: "Coming soon", url: null },
+          homework: { label: "Coming soon", url: null },
+        },
     ],
   },
   {

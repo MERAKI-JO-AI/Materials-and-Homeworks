@@ -5,27 +5,30 @@ interface ToggleTabsProps {
 
 export const ToggleTabs = ({ activeTab, onTabChange }: ToggleTabsProps) => {
   return (
-    <div className="mt-6 flex flex-wrap items-center justify-center gap-3 mb-8">
-      <button
-        onClick={() => onTabChange('materials')}
-        className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-semibold border transition-all ${
-          activeTab === 'materials'
-            ? 'bg-accent text-white border-accent shadow-lg shadow-accent/40'
-            : 'bg-transparent text-gray-300 border-gray-500 hover:border-accent hover:text-white'
-        }`}
-      >
-        Materials
-      </button>
-      <button
-        onClick={() => onTabChange('homeworks')}
-        className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-semibold border transition-all ${
-          activeTab === 'homeworks'
-            ? 'bg-accent text-white border-accent shadow-lg shadow-accent/40'
-            : 'bg-transparent text-gray-300 border-gray-500 hover:border-accent hover:text-white'
-        }`}
-      >
-        Homeworks
-      </button>
+    <div className="mt-6 flex flex-col items-center justify-center gap-3 mb-8">
+      {/* Buttons row */}
+      <div className="flex items-center justify-center gap-3">
+        <button
+          onClick={() => onTabChange('materials')}
+          className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-semibold border transition-all ${
+            activeTab === 'materials'
+              ? 'bg-accent text-white border-accent shadow-lg shadow-accent/40'
+              : 'bg-transparent text-gray-300 border-gray-500 hover:border-accent hover:text-white'
+          }`}
+        >
+          Materials
+        </button>
+        <button
+          onClick={() => onTabChange('homeworks')}
+          className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-semibold border transition-all ${
+            activeTab === 'homeworks'
+              ? 'bg-accent text-white border-accent shadow-lg shadow-accent/40'
+              : 'bg-transparent text-gray-300 border-gray-500 hover:border-accent hover:text-white'
+          }`}
+        >
+          Homeworks
+        </button>
+      </div>
       
       {/* Active section indicator */}
       <span
