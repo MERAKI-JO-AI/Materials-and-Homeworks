@@ -23,7 +23,10 @@ export const weeks: Week[] = [
       {
         id: "w1-l1",
         title: "Prompting & Intro to Vibe Coding",
-        material: { label: "Coming soon", url: null },
+        material: {
+          label: "Prompting Lecture.pdf",
+          url: "/Materials-and-Homeworks/materials/Prompting%20Lecture.pdf",
+        },
         homework: { label: "Coming soon", url: null },
       },
       {
