@@ -6,10 +6,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/access" element={<AccessCodePage />} />
+        {/* <Route path="/access" element={<AccessCodePage />} /> */}
         <Route path="/resources" element={<ResourcesPage />} />
-        <Route path="/" element={<Navigate to="/access" replace />} />
-        <Route path="*" element={<Navigate to="/access" replace />} />
+        <Route path="/" element={<ResourcesPage />} />
+        <Route path="*" element={<Navigate to="/resources" replace />} />
       </Routes>
     </BrowserRouter>
   );

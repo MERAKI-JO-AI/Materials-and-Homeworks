@@ -12,19 +12,19 @@ export const ResourcesPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    // Check if user has access
-    const hasAccess = localStorage.getItem('vibeAccess') === 'true';
-    if (!hasAccess) {
-      navigate('/access');
-      return;
-    }
-  }, [navigate]);
+  // useEffect(() => {
+  //   // Check if user has access
+  //   const hasAccess = localStorage.getItem('vibeAccess') === 'true';
+  //   if (!hasAccess) {
+  //     navigate('/access');
+  //     return;
+  //   }
+  // }, [navigate]);
 
-  const handleLogout = () => {
-    localStorage.removeItem('vibeAccess');
-    navigate('/access');
-  };
+  // const handleLogout = () => {
+  //   localStorage.removeItem('vibeAccess');
+  //   navigate('/access');
+  // };
 
   const handleWeekClick = (week: Week) => {
     setSelectedWeek(week);
@@ -38,7 +38,7 @@ export const ResourcesPage = () => {
 
   return (
     <div className="min-h-screen bg-navyDark text-white overflow-x-hidden">
-      <Navbar onLogout={handleLogout} />
+      {/* <Navbar onLogout={handleLogout} /> */}
 
       <main className="mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-12">
         {/* Main title and subtitle */}
