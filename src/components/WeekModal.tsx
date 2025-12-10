@@ -1,8 +1,8 @@
-import { Week } from '../data/weeks';
+import { Week } from "../data/weeks";
 
 interface WeekModalProps {
   week: Week;
-  activeTab: 'materials' | 'homeworks';
+  activeTab: "materials" | "homeworks";
   isOpen: boolean;
   onClose: () => void;
 }
@@ -15,20 +15,20 @@ export const WeekModal = ({
 }: WeekModalProps) => {
   if (!isOpen) return null;
 
-  const displayedType = activeTab === 'materials' ? 'material' : 'homework';
-  const heading = activeTab === 'materials' ? 'Materials' : 'Homeworks';
+  const displayedType = activeTab === "materials" ? "material" : "homework";
+  const heading = activeTab === "materials" ? "Materials" : "Homeworks";
 
   const handleFileClick = (url: string | null) => {
-    if (url && url !== '#') {
-      window.open(url, '_blank');
+    if (url && url !== "#") {
+      window.open(url, "_blank");
     }
   };
 
   const getFileIcon = (label: string) => {
-    if (label.toLowerCase().includes('homework')) {
-      return '📝';
+    if (label.toLowerCase().includes("homework")) {
+      return "📝";
     }
-    return '📄';
+    return "📄";
   };
 
   return (
@@ -59,13 +59,18 @@ export const WeekModal = ({
 
         {/* Body */}
         <div className="max-h-[80vh] overflow-y-auto px-4 sm:px-6 py-4 sm:py-5 bg-card text-textMain">
-          <h3 className="text-xs font-semibold uppercase tracking-widest text-accent mb-4">{heading}</h3>
+          <h3 className="text-xs font-semibold uppercase tracking-widest text-accent mb-4">
+            {heading}
+          </h3>
           <div className="space-y-3">
             {week.lectures.map((lecture) => {
               const file =
-                displayedType === 'material' ? lecture.material : lecture.homework;
+                displayedType === "material"
+                  ? lecture.material
+                  : lecture.homework;
 
-              const isComingSoon = !file.url || file.label === 'Coming soon';
+              const hasUrl = file.url && file.url !== "#";
+              const isComingSoon = !hasUrl && file.label === "Coming soon";
 
               return (
                 <div
@@ -78,17 +83,17 @@ export const WeekModal = ({
                     </div>
                   </div>
 
-                  {isComingSoon ? (
-                    <span className="text-xs sm:text-sm px-3 py-1.5 rounded-full bg-gray-100 text-gray-600 border border-gray-200">
-                      Coming soon
-                    </span>
-                  ) : (
+                  {hasUrl ? (
                     <button
                       onClick={() => file.url && handleFileClick(file.url)}
                       className="text-xs sm:text-sm px-3 py-1.5 rounded-full bg-accent text-white hover:bg-accent/90 transition-colors"
                     >
                       Open PDF
                     </button>
+                  ) : (
+                    <span className="text-xs sm:text-sm px-3 py-1.5 rounded-full bg-gray-100 text-gray-600 border border-gray-200">
+                      {file.label}
+                    </span>
                   )}
                 </div>
               );
@@ -99,4 +104,3 @@ export const WeekModal = ({
     </div>
   );
 };
-

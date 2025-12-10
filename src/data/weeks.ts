@@ -25,15 +25,22 @@ export const weeks: Week[] = [
         title: "Prompting & Intro to Vibe Coding",
         material: {
           label: "Prompting Lecture.pdf",
-          url: "/Materials-and-Homeworks/materials/Prompting%20Lecture.pdf",
+          url: "Materials-and-Homeworks/materials/Prompting%20Lecture.pdf",
         },
-        homework: { label: "Coming soon", url: null },
+
+        homework: { label: "No Homework", url: null },
       },
       {
         id: "w1-l2",
         title: "Web Page Structure & Layout",
-        material: { label: "Coming soon", url: null },
-        homework: { label: "Coming soon", url: null },
+        material: {
+          label: "Web Page Structure & Layout Lecture.pdf",
+          url: "Materials-and-Homeworks/materials/Web%20Page%20Structure%20&%20Layout%20Lecture.pdf ",
+        },
+        homework: {
+          label: "Web Page Structure & Layout Homework.pdf",
+          url: "Materials-and-Homeworks/homework/Web%20Page%20Structure%20&%20Layout%20Homework.pdf",
+        },
       },
     ],
   },
@@ -155,18 +162,18 @@ export const weeks: Week[] = [
     id: 8,
     label: "Week 8",
     lectures: [
-        {
-          id: "w8-l1",
-          title: "Portfolio Explanation",
-          material: { label: "Coming soon", url: null },
-          homework: { label: "Coming soon", url: null },
-        },
-        {
-          id: "w8-l2",
-          title: "Project 4 Presentation",
-          material: { label: "Coming soon", url: null },
-          homework: { label: "Coming soon", url: null },
-        },
+      {
+        id: "w8-l1",
+        title: "Portfolio Explanation",
+        material: { label: "Coming soon", url: null },
+        homework: { label: "Coming soon", url: null },
+      },
+      {
+        id: "w8-l2",
+        title: "Project 4 Presentation",
+        material: { label: "Coming soon", url: null },
+        homework: { label: "Coming soon", url: null },
+      },
     ],
   },
   {
