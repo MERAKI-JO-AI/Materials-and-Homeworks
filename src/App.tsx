@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { AccessCodePage } from './pages/AccessCodePage';
 import { ResourcesPage } from './pages/ResourcesPage';
 
 function App() {
