@@ -35,7 +35,7 @@ export const weeks: Week[] = [
         title: "Web Page Structure & Layout",
         material: {
           label: "Web Page Structure & Layout Lecture.pdf",
-          url: "Materials-and-Homeworks/materials/Web%20Page%20Structure%20&%20Layout%20Lecture.pdf ",
+          url: "Materials-and-Homeworks/materials/Web%20Page%20Structure%20&%20Layout%20Lecture.pdf",
         },
         homework: {
           label: "Web Page Structure & Layout Homework.pdf",
