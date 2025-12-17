@@ -63,7 +63,10 @@ export const weeks: Week[] = [
       {
         id: "w2-l2",
         title: "Project 1",
-        material: { label: "Project 1.pdf", url: "Materials-and-Homeworks/materials/Project%201.pdf" },
+        material: {
+          label: "Project 1.pdf",
+          url: "Materials-and-Homeworks/materials/Project%201.pdf",
+        },
         homework: { label: "No Homework", url: null },
       },
     ],
