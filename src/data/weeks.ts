@@ -25,7 +25,7 @@ export const weeks: Week[] = [
         title: "Prompting & Intro to Vibe Coding",
         material: {
           label: "Prompting Lecture.pdf",
-          url: "Materials-and-Homeworks/materials/Prompting%20Lecture.pdf",
+          url: "/Materials-and-Homeworks/materials/Prompting%20Lecture.pdf",
         },
 
         homework: { label: "No Homework", url: null },
@@ -35,11 +35,11 @@ export const weeks: Week[] = [
         title: "Web Page Structure & Layout",
         material: {
           label: "Web Page Structure & Layout Lecture.pdf",
-          url: "Materials-and-Homeworks/materials/Web%20Page%20Structure%20&%20Layout%20Lecture.pdf",
+          url: "/Materials-and-Homeworks/materials/Web%20Page%20Structure%20&%20Layout%20Lecture.pdf",
         },
         homework: {
           label: "Web Page Structure & Layout Homework.pdf",
-          url: "Materials-and-Homeworks/homework/Web%20Page%20Structure%20&%20Layout%20Homework.pdf",
+          url: "/Materials-and-Homeworks/homework/Web%20Page%20Structure%20&%20Layout%20Homework.pdf",
         },
       },
     ],
@@ -53,11 +53,11 @@ export const weeks: Week[] = [
         title: "HTML, CSS Part 1",
         material: {
           label: "HTML, CSS Part 1 Lecture.pdf",
-          url: "Materials-and-Homeworks/materials/HTML%20CSS%20basics.pdf",
+          url: "/Materials-and-Homeworks/materials/HTML%20CSS%20basics.pdf",
         },
         homework: {
           label: "HTML, CSS Part 1 Lecture Homework.pdf",
-          url: "Materials-and-Homeworks/homework/HTML%20CSS%20basics%20HW.pdf",
+          url: "/Materials-and-Homeworks/homework/HTML%20CSS%20basics%20HW.pdf",
         },
       },
       {
@@ -65,7 +65,7 @@ export const weeks: Week[] = [
         title: "Project 1",
         material: {
           label: "Project 1.pdf",
-          url: "Materials-and-Homeworks/materials/Project%201.pdf",
+          url: "/Materials-and-Homeworks/materials/Project%201.pdf",
         },
         homework: { label: "No Homework", url: null },
       },
@@ -80,7 +80,7 @@ export const weeks: Week[] = [
         title: "Deployment",
         material: {
           label: "Deployment.pdf",
-          url: "Materials-and-Homeworks/materials/Depolyment.pdf",
+          url: "/Materials-and-Homeworks/materials/Depolyment.pdf",
         },
         homework: { label: "No Homework", url: null },
       },
@@ -93,8 +93,14 @@ export const weeks: Week[] = [
       {
         id: "w4-l1",
         title: "JavaScript Lecture",
-        material: { label: "JavaScript Lecture.pdf", url: "Materials-and-Homeworks/materials/Javascript%20Lecture.pdf" },
-        homework: { label: "JavaScript Homework.pdf", url: "Materials-and-Homeworks/homework/Javascript%20Homework.pdf" },
+        material: {
+          label: "JavaScript Lecture.pdf",
+          url: "/Materials-and-Homeworks/materials/JavaScript%20Lecture.pdf",
+        },
+        homework: {
+          label: "JavaScript Homework.pdf",
+          url: "/Materials-and-Homeworks/homework/JavaScript%20Homework.pdf",
+        },
       },
       {
         id: "w4-l2",
