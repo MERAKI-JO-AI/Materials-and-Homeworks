@@ -95,7 +95,7 @@ export const weeks: Week[] = [
         title: "JavaScript Lecture",
         material: {
           label: "JavaScript Lecture.pdf",
-          url: "/Materials-and-Homeworks/materials/Javascript%20lecture.pdf",
+          url: "/Materials-and-Homeworks/materials/JavaScript%20Lecture.pdf",
         },
         homework: {
           label: "JavaScript Homework.pdf",
