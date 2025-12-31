@@ -104,8 +104,8 @@ export const weeks: Week[] = [
       },
       {
         id: "w4-l2",
-        title: "JS, HTML, CSS Practice",
-        material: { label: "Coming soon", url: null },
+        title: "Project 2",
+        material: { label: "Funnel Page.pdf", url: "/Materials-and-Homeworks/materials/Project2.pdf" },
         homework: { label: "Coming soon", url: null },
       },
     ],
@@ -128,7 +128,7 @@ export const weeks: Week[] = [
       },
       {
         id: "w5-l3",
-        title: "Project 2",
+        title: "Project 3",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
