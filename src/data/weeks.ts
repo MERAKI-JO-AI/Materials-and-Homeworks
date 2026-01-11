@@ -117,37 +117,27 @@ export const weeks: Week[] = [
     id: 5,
     label: "Week 5",
     lectures: [
-      {
-        id: "w5-l1",
-        title: "Debugging & Customization",
-        material: { label: "Coming soon", url: null },
-        homework: { label: "Coming soon", url: null },
-      },
-      {
+       {
         id: "w5-l2",
-        title: "Debugging & Customization Practice",
+        title: "Project 2 Presentation",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
-      {
-        id: "w5-l3",
-        title: "Project 3",
-        material: { label: "Coming soon", url: null },
-        homework: { label: "Coming soon", url: null },
-      },
+    
     ],
   },
   {
     id: 6,
     label: "Week 6",
     lectures: [
-      {
+     
+       {
         id: "w6-l1",
-        title: "Project 2 Presentation",
+        title: "Debugging & Customization",
         material: { label: "Coming soon", url: null },
         homework: { label: "Coming soon", url: null },
       },
-      {
+         {
         id: "w6-l2",
         title: "Project 3",
         material: { label: "Coming soon", url: null },
